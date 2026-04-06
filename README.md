@@ -1,14 +1,16 @@
 # HacksonAloysis Projects
 
-Standalone recruiter-facing projects site for `projects.hacksonaloysis.me`.
+Standalone projects site for `projects.hacksonaloysis.me`.
 
-This site now uses the public GitHub profile `noSkcaHdat` as its content source.
+This site now shares the same exported Astro shell, motion system, and asset structure as the main portfolio.
 
 ## Files
 
-- `index.html`: projects landing page
-- `projects.js`: fetches public repositories from GitHub and renders the page
-- `styles.css`: shared styling for the projects site
+- `index.html`: projects landing page using the shared portfolio shell
+- `_astro/`: copied CSS, JS, and media assets needed by the design
+- `images/`, `fonts/`, `icons/`: local assets used by the site
+- `content/site-content.template.json`: editable content for the projects site
+- `tools/site_content.py`: export/apply helper for updating the site content
 - `CNAME`: custom domain for static hosting
 - `robots.txt`: crawler rules
 - `sitemap.xml`: URLs for search engines
@@ -25,11 +27,19 @@ Then open `http://localhost:8000/projects/`.
 
 ## Update Content
 
-1. Open `projects/projects.js`.
-2. Update `USERNAME` if your GitHub handle changes.
-3. Edit the `FEATURED` list to change which repositories are highlighted first.
-4. Improve GitHub repo descriptions and READMEs, since the page pulls from those fields.
-5. Update `sitemap.xml` if you later add more pages.
+From `d:\webni\projects`, run:
+
+```powershell
+python tools/site_content.py export
+```
+
+Edit `content/site-content.template.json`, then apply the changes:
+
+```powershell
+python tools/site_content.py apply
+```
+
+The featured GitHub repositories in the projects section are currently defined in `content/site-content.template.json`.
 
 ## Deploy
 

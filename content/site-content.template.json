@@ -1,0 +1,264 @@
+{
+  "meta": {
+    "title": "HacksonAloysis | GitHub Projects and Security Builds",
+    "description": "HacksonAloysis showcases public GitHub projects, security builds, experiments, and shipped work at projects.hacksonaloysis.me.",
+    "site_name": "HacksonAloysis",
+    "og_title": "HacksonAloysis | GitHub Projects and Security Builds",
+    "og_description": "HacksonAloysis showcases public GitHub projects, security builds, experiments, and shipped work at projects.hacksonaloysis.me.",
+    "og_url": "https://projects.hacksonaloysis.me/",
+    "og_image": "https://projects.hacksonaloysis.me/images/KarthikNewDp.png",
+    "twitter_image": "https://projects.hacksonaloysis.me/images/KarthikNewDp.png",
+    "apple_mobile_web_app_title": "HA Projects",
+    "theme_color": "#08111c"
+  },
+  "branding": {
+    "name": "HacksonAloysis",
+    "menu": [
+      "About",
+      "Projects",
+      "Contact"
+    ],
+    "social_links": [
+      {
+        "label": "Github",
+        "href": "https://github.com/noSkcaHdat"
+      },
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/karthikr-cybersecurity/"
+      }
+    ],
+    "availability": {
+      "line_1": "Building publicly from INDIA.",
+      "line_2": "Open to security and software roles",
+      "cta_label": "Reach out",
+      "cta_href": "mailto:karthikraja.connect@gmail.com"
+    },
+    "qr_code": {
+      "href": "mailto:karthikraja.connect@gmail.com",
+      "title": "Contact me!",
+      "src": "images/qr-code.svg",
+      "alt": "QR Code"
+    },
+    "footer_name": "HacksonAloysis"
+  },
+  "hero": {
+    "words": [
+      "GitHub",
+      "Projects"
+    ],
+    "star_image": "images/asset-star.svg"
+  },
+  "about": {
+    "title": "Projects",
+    "paragraphs_html": [
+      "This subdomain is the project-facing companion to the main portfolio. It keeps the same motion-heavy shell, but the content is tuned for recruiters and visitors who want direct proof of what I build.",
+      "The collection below pulls together security experiments, TypeScript and Python builds, campus products, portfolio sites, CTF work, and research repos from my GitHub. Every featured card links straight to source so the work can be reviewed without extra friction."
+    ],
+    "awards_title": "Signals",
+    "awards": [
+      {
+        "type": "counter",
+        "name": "github",
+        "counters": [
+          "(Public x 35)",
+          "(Stars x 9)"
+        ]
+      },
+      {
+        "type": "text",
+        "text_html": "Security builds, web products, labs, and writeups"
+      },
+      {
+        "type": "text",
+        "text_html": "Every featured card opens the source repository"
+      },
+      {
+        "type": "text",
+        "text_html": "TypeScript, Python, HTML, and practical tooling"
+      },
+      {
+        "type": "text",
+        "text_html": "Built for recruiters who want proof, not only polish"
+      },
+      {
+        "type": "text",
+        "text_html": "Recent public work spans 2024, 2025, and 2026"
+      }
+    ]
+  },
+  "work": {
+    "title": "PROJECTS",
+    "items": [
+      {
+        "title": "Phisher.io",
+        "key": "#ts-sec/01",
+        "href": "https://github.com/noSkcaHdat/Phisher.io",
+        "media_type": "image",
+        "video_src": "",
+        "poster_image": "images/DX-EDGE-Certificate.png"
+      },
+      {
+        "title": "ZKP Zero Knowledge Proof Age Identification System",
+        "key": "#ts-zkp/02",
+        "href": "https://github.com/noSkcaHdat/ZKP-Zero-Knowledge-Proof--Age-Identification-System",
+        "media_type": "image",
+        "video_src": "",
+        "poster_image": "images/ConferencePic.jpeg"
+      },
+      {
+        "title": "ai-cooked",
+        "key": "#py-ai/03",
+        "href": "https://github.com/noSkcaHdat/ai-cooked",
+        "media_type": "image",
+        "video_src": "",
+        "poster_image": "images/ConfoPic.jpeg"
+      },
+      {
+        "title": "hostel-management-web",
+        "key": "#js-web/04",
+        "href": "https://github.com/noSkcaHdat/hostel-management-web",
+        "media_type": "image",
+        "video_src": "",
+        "poster_image": "images/KioskPic.jpeg"
+      },
+      {
+        "title": "LLM-FireEye",
+        "key": "#llm-sec/05",
+        "href": "https://github.com/noSkcaHdat/LLM-FireEye",
+        "media_type": "image",
+        "video_src": "",
+        "poster_image": "images/ITCFrontView.jpeg"
+      },
+      {
+        "title": "noskcahVoiceAssistant",
+        "key": "#py-voice/06",
+        "href": "https://github.com/noSkcaHdat/noskcahVoiceAssistant",
+        "media_type": "image",
+        "video_src": "",
+        "poster_image": "images/MirrorPic1.jpeg"
+      },
+      {
+        "title": "GuyBuilds-LandPage",
+        "key": "#ts-brand/07",
+        "href": "https://github.com/noSkcaHdat/GuyBuilds-LandPage",
+        "media_type": "image",
+        "video_src": "",
+        "poster_image": "images/Allcollage.jpg"
+      },
+      {
+        "title": "UST-GenCyS-CTF2025",
+        "key": "#ctf-2025/08",
+        "href": "https://github.com/noSkcaHdat/UST-GenCyS-CTF2025",
+        "media_type": "image",
+        "video_src": "",
+        "poster_image": "images/CTF events/GenCysImage.jpg"
+      },
+      {
+        "title": "phish-eye-guardian-ai",
+        "key": "#ts-phish/09",
+        "href": "https://github.com/noSkcaHdat/phish-eye-guardian-ai",
+        "media_type": "image",
+        "video_src": "",
+        "poster_image": "images/CTF events/GencycRankPic.jpeg"
+      },
+      {
+        "title": "karthik-raja-portfolio",
+        "key": "#ts-port/10",
+        "href": "https://github.com/noSkcaHdat/karthik-raja-portfolio",
+        "media_type": "image",
+        "video_src": "",
+        "poster_image": "images/SairamMementoKarthik(Final).jpg"
+      },
+      {
+        "title": "Malware-Analysis",
+        "key": "#malware/11",
+        "href": "https://github.com/noSkcaHdat/Malware-Analysis",
+        "media_type": "image",
+        "video_src": "",
+        "poster_image": "images/ITCMainGateSelfie.jpeg"
+      },
+      {
+        "title": "KarthikR16-CTFwriteUPS2024",
+        "key": "#ctf-notes/12",
+        "href": "https://github.com/noSkcaHdat/KarthikR16-CTFwriteUPS2024",
+        "media_type": "image",
+        "video_src": "",
+        "poster_image": "images/LinkedinSairam3.jpeg"
+      }
+    ]
+  },
+  "gallery": {
+    "frames": [
+      {
+        "src": "_astro/portfolio-2021.D5EtPDWp_Z1AfsSn.webp",
+        "alt": "Portfolio shipping mindset",
+        "width": "1024",
+        "height": "768",
+        "caption_html": "Shipping the portfolio taught me to ship the project layer too"
+      },
+      {
+        "src": "_astro/remote-2005.B2CSTJrO_1R04cN.webp",
+        "alt": "Remote coding energy",
+        "width": "768",
+        "height": "1024",
+        "caption_html": "Remote building still feels like home"
+      },
+      {
+        "src": "_astro/setup-2020.DjuS52Ke_1lqvvK.webp",
+        "alt": "Late-night build setup",
+        "width": "1024",
+        "height": "576",
+        "caption_html": "Late-night setup behind most experiments"
+      },
+      {
+        "src": "_astro/first-fwa.LsgJSoFn_1VhWNL.webp",
+        "alt": "Design ambition",
+        "width": "768",
+        "height": "1024",
+        "caption_html": "Design standards still matter, even for dev-heavy work"
+      },
+      {
+        "src": "_astro/art-lines.BXTmZZe3_Z1DHEgE.webp",
+        "alt": "Pattern recognition",
+        "width": "802",
+        "height": "1024",
+        "caption_html": "Pattern recognition is a security skill too"
+      },
+      {
+        "src": "_astro/gameboy.BbEYkrsC_RRGJe.webp",
+        "alt": "Curiosity never left",
+        "width": "600",
+        "height": "600",
+        "caption_html": "Curiosity stayed long after the first device"
+      },
+      {
+        "src": "_astro/waaark.C5QpwSMH_Rq3S9.webp",
+        "alt": "Interfaces with personality",
+        "width": "1440",
+        "height": "1440",
+        "caption_html": "Interfaces should feel alive, not only functional"
+      },
+      {
+        "src": "_astro/legos.Bdikeciy_Z1pUyVv.webp",
+        "alt": "Systems thinking",
+        "width": "768",
+        "height": "1024",
+        "caption_html": "Systems thinking starts from small modular pieces"
+      }
+    ],
+    "catcher_lines": [
+      "Proof",
+      "over",
+      "promises",
+      "always"
+    ]
+  },
+  "contact": {
+    "button_text": "GO",
+    "headline_top": "Let's",
+    "headline_bottom": "Ship",
+    "email_label": "karthikraja.connect@gmail.com",
+    "email_href": "mailto:karthikraja.connect@gmail.com"
+  }
+}
